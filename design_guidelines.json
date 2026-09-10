@@ -1,0 +1,137 @@
+{
+  "project_name": "AgriLink 360",
+  "tagline": "Connecting Farmers. Empowering Markets.",
+  "secondary_tagline": "Smart Market Linkages & Price Discovery",
+  "app_type": "hybrid_fullstack",
+  "primary_theme": "Fresh Agricultural Warm Earthy & Deep Green (Default) with LŪMEN // ÍNDEX Dark Fintech Mode Toggle",
+  "fonts": {
+    "heading": "Manrope, sans-serif",
+    "body": "Manrope, sans-serif",
+    "premium_mode_heading": "Graphik, sans-serif, Manrope",
+    "accent_mono": "JetBrains Mono, monospace"
+  },
+  "typography": {
+    "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight",
+    "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight",
+    "h3_subsection": "text-xl sm:text-2xl font-semibold",
+    "card_title": "text-lg sm:text-xl font-medium",
+    "body_text": "text-sm sm:text-base leading-relaxed",
+    "caption_label": "text-xs font-semibold tracking-wider uppercase text-muted-foreground"
+  },
+  "colors": {
+    "default_mode": {
+      "primary": "#1E5128",
+      "primary_hover": "#14371B",
+      "accent_leaf": "#4E9F3D",
+      "warm_background": "#FDFBF7",
+      "surface_card": "#FFFFFF",
+      "surface_border": "#E5E0D8",
+      "earth_brown": "#4E3629",
+      "harvest_gold": "#D97706",
+      "text_dark": "#191E19",
+      "text_muted": "#5F6B61",
+      "badge_verified": "#10B981"
+    },
+    "lumen_premium_mode": {
+      "background": "#000000",
+      "surface_card": "rgba(18, 18, 22, 0.75)",
+      "surface_border": "rgba(255, 255, 255, 0.12)",
+      "accent_ice_blue": "#AFDDFF",
+      "text_white": "#FFFFFF",
+      "text_muted": "rgba(255, 255, 255, 0.5)",
+      "grid_line": "rgba(175, 221, 255, 0.15)",
+      "node_border": "#AFDDFF"
+    }
+  },
+  "lumen_premium_hero_spec": {
+    "background_color": "#000000",
+    "accent_color": "#AFDDFF",
+    "vertical_grid_lines_percent": [12.6, 37.5, 61.9, 86.2],
+    "horizontal_grid_lines_percent": [32.7, 71.4],
+    "nodes": "Square network nodes at line intersections with thin #AFDDFF borders and SVG animated connector pulse lines",
+    "headline": "Liquid Assets. Luminous Returns.",
+    "typography": "Graphik / Manrope ultra-clean minimalist high-end financial aesthetic"
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-6 lg:px-12 py-8 sm:py-12 lg:py-16",
+    "card_padding": "p-5 sm:p-6",
+    "bento_gap": "gap-4 sm:gap-6 lg:gap-8",
+    "grid_modes": {
+      "marketplace": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
+      "dashboard_metrics": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4",
+      "dashboard_main": "grid grid-cols-1 lg:grid-cols-12 gap-6"
+    }
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1579113800032-c38bd7635818?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMGFncmljdWx0dXJhbCUyMHZlZ2V0YWJsZXMlMjBvcmdhbmljJTIwZmFybSUyMGhhcnZlc3QlMjBwcm9kdWNlfGVufDB8fHx8MTc4OTA1NzQ1Mnww&ixlib=rb-4.1.0&q=85",
+        "category": "hero_fresh_harvest",
+        "description": "Pile of vibrant fresh organic farm harvest produce"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwzfHxmcmVzaCUyMGFncmljdWx0dXJhbCUyMHZlZ2V0YWJsZXMlMjBvcmdhbmljJTIwZmFybSUyMGhhcnZlc3QlMjBwcm9kdWNlfGVufDB8fHx8MTc4OTA1NzQ1Mnww&ixlib=rb-4.1.0&q=85",
+        "category": "hero_marketplace_display",
+        "description": "Rich assortment of market crops"
+      }
+    ],
+    "farmers": [
+      {
+        "url": "https://images.unsplash.com/photo-1545830790-68595959c491?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwxfHxmYXJtZXIlMjBwb3J0cmFpdCUyMGFncmljdWx0dXJhbCUyMGZpZWxkJTIwZ3JlZW4lMjBjcm9wJTIwaGFydmVzdHxlbnwwfHx8fDE3ODkwNTc0NTJ8MA&ixlib=rb-4.1.0&q=85",
+        "category": "farmer_profile_1",
+        "description": "Experienced farmer harvesting in field"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1627475320102-d73fcb4eb427?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwzfHxmYXJtZXIlMjBwb3J0cmFpdCUyMGFncmljdWx0dXJhbCUyMGZpZWxkJTIwZ3JlZW4lMjBjcm9wJTIwaGFydmVzdHxlbnwwfHx8fDE3ODkwNTc0NTJ8MA&ixlib=rb-4.1.0&q=85",
+        "category": "farmer_profile_2",
+        "description": "Farmer standing proudly in green crop field"
+      }
+    ],
+    "logistics_and_market": [
+      {
+        "url": "https://images.unsplash.com/photo-1783309529161-a1a917bece7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwyfHxncmFpbiUyMHdoZWF0JTIwZmllbGQlMjBzcGljZXMlMjBmcnVpdHMlMjBkYWlyeSUyMGxvZ2lzdGljcyUyMHRydWNrJTIwbWFya2V0fGVufDB8fHx8MTc4OTA1NzQ1Mnww&ixlib=rb-4.1.0&q=85",
+        "category": "supply_chain_logistics",
+        "description": "Logistics loading and transport of agricultural commodities"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1557844352-761f2565b576?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHw0fHxmcmVzaCUyMGFncmljdWx0dXJhbCUyMHZlZ2V0YWJsZXMlMjBvcmdhbmljJTIwZmFybSUyMGhhcnZlc3QlMjBwcm9kdWNlfGVufDB8fHx8MTc4OTA1NzQ1Mnww&ixlib=rb-4.1.0&q=85",
+        "category": "market_produce",
+        "description": "Fresh produce baskets ready for wholesale trading"
+      }
+    ]
+  },
+  "key_features_to_implement": [
+    "Landing hero with CTAs ('Explore Marketplace', 'Join as a Farmer') and LŪMEN // ÍNDEX mode toggle switch",
+    "Marketplace with search, category filtering (Vegetables, Fruits, Grains, Pulses, Spices, Oilseeds, Dairy, Organic Produce, Flowers, Other)",
+    "Product listing cards featuring crop image, variety, farmer profile, location, verification badge, grade, price, harvest date, availability, rating, and actions (View, Save, Make Offer, Contact)",
+    "Product details drawer/dialog with image gallery and seller info",
+    "Farmer & Buyer dual perspective Dashboards with interactive Recharts metrics (Sales, Stock, Completed Transactions, Saved Items)",
+    "My Stock inventory manager with live status toggles",
+    "Offers & negotiation timeline with status progression (Pending, Accepted, Counter-offer, Finalized)",
+    "Digital Contracts generator & viewer",
+    "Delivery & logistics tracking timeline",
+    "Market Price Discovery table with real-time price trends",
+    "Verification Center with verification progress % indicator",
+    "Notifications, Privacy & Settings, Admin management view",
+    "Multi-language switcher (English, Hindi, Spanish, French, Swahili)",
+    "Crop demand insights & AI planting predictions"
+  ],
+  "accessibility_and_testing": {
+    "data_testid_requirement": "EVERY interactive element, card, tab, button, input, toggle, modal, and table row MUST have a kebab-case data-testid attribute.",
+    "contrast_policy": "All body text must achieve > 4.5:1 ratio against background. LŪMEN mode contrast relies on bright white text and #AFDDFF highlights on #000000 surface."
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: transition: all. Always add transitions for specific interactive elements like button, input excluding transforms.",
+    "You MUST NOT center align the app container (.App { text-align: center; }).",
+    "Always use modern button styles like pill-shaped or sharp buttons with interaction animations & color relevant to the app style.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 for icons. Use lucide-react or phosphor icons.",
+    "Every interaction needs micro-animations - hover states, transitions, entrance animations.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "All interactive and key informational elements MUST include data-testid attributes."
+  ]
+}
